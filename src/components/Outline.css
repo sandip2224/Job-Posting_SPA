@@ -1,0 +1,24 @@
+.outline {
+    display: flex;
+    position: relative;
+}
+
+.outline-clm1 {
+    width: 20vw;
+}
+
+.outline-clm2 {
+    width: 20vw;
+}
+
+.outline-clm3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+}
+
+.roleCompensation,
+.roleType {
+    margin-bottom: 30px;
+}

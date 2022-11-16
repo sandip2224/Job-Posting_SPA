@@ -9,8 +9,8 @@ const Body = () => {
         <>
             <div className='ui container body'>
                 <Header />
-                {/* <Outline />
-                <Description /> */}
+                <Outline />
+                <Description />
             </div>
         </>
 
