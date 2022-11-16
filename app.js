@@ -30,6 +30,7 @@ app.get('/robinhood-apply', function (req, res) {
         data = data.replace(/\$OG_ORG/g, 'RobinHood')
         data = data.replace(/\$OG_URL/g, 'https://robinhood.com')
         data = data.replace(/\$OG_EMPLOYMENT/g, 'INTERNSHIP')
+        data = data.replace(/\$OG_TYPE/g, 'JobPosting')
         result = data.replace(/\$OG_IMAGE/g, 'https://i.imgur.com/V7irMl8.png')
         res.send(result)
     })
