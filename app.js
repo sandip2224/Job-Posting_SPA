@@ -18,7 +18,6 @@ app.get('/', (req, res) => {
 })
 
 app.get('/robinhood-apply', function (req, res) {
-    console.log("Robin")
     const filePath = path.resolve(__dirname, './build', 'index.html')
 
     fs.readFile(filePath, 'utf8', function (err, data) {
@@ -28,6 +27,9 @@ app.get('/robinhood-apply', function (req, res) {
 
         data = data.replace(/\$OG_TITLE/g, 'Full Stack Developer Intern | RobinHood')
         data = data.replace(/\$OG_DESCRIPTION/g, 'RobinHood is actively hiring for full stack developer interns')
+        data = data.replace(/\$OG_ORG/g, 'RobinHood')
+        data = data.replace(/\$OG_URL/g, 'https://robinhood.com')
+        data = data.replace(/\$OG_EMPLOYMENT/g, 'INTERNSHIP')
         result = data.replace(/\$OG_IMAGE/g, 'https://i.imgur.com/V7irMl8.png')
         res.send(result)
     })
