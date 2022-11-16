@@ -9,12 +9,16 @@ const Nav = () => {
                 <div class="header item">
                     Reczee TalentHub
                 </div>
-                
-                <Link to='/' className='item'>Home</Link>
-                <Link to='/robinhood-apply' className='item'>RobinHood</Link>
+
+                {/* <Link to='/' className='item'>Home</Link>
+                <Link to='/robinhood-apply' className='item'>RobinHood</Link> */}
+                <a href='/' className='item'>Home</a>
+                <a href='/robinhood-apply' className='item'>RobinHood</a>
                 <div className="right menu">
-                    <Link to="/" className="item">Schedule Interview</Link>
-                    <Link to="/" className="item">Find Jobs</Link>
+                    <a href='/' className='item'>Schedule Interview</a>
+                    <a href='/' className='item'>Find Jobs</a>
+                    {/* <Link to="/" className="item">Schedule Interview</Link>
+                    <Link to="/" className="item">Find Jobs</Link> */}
                 </div>
             </div>
         </nav>

@@ -15,11 +15,7 @@ import './App.css'
 const App = () => {
 	return (
 		<div className='App'>
-			<ul>
-				<li><Link to="/">Home</Link></li>
-				<li><Link to="/robinhood-apply">Robinhood</Link></li>
-				{/* <li><Link to="/contact">Contact</Link></li> */}
-			</ul>
+			<Nav />
 
 			<Routes>
 				<Route exact path="/" element={<Home />} />
