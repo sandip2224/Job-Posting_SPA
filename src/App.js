@@ -1,6 +1,9 @@
 import Nav from './components/Nav'
 import Body from './components/Body'
 
+import { Helmet } from "react-helmet";
+
+
 import './App.css'
 
 function App() {
