@@ -5,7 +5,7 @@ const Nav = () => {
         <>
             <div className="ui pointing huge menu">
                 <div class="header item">
-                    Reczee TalentHub1
+                    Reczee TalentHub
                 </div>
                 <a href="#" className="active item">Home</a>
                 <div className="right menu">
