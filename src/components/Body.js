@@ -2,12 +2,16 @@ import Header from './Header'
 import Description from './Description'
 import Outline from './Outline'
 
+import './Body.css'
+
 const Body = () => {
     return (
         <>
-            <Header />
-            <Outline />
-            <Description />
+            <div className='ui container body'>
+                <Header />
+                {/* <Outline />
+                <Description /> */}
+            </div>
         </>
 
     );

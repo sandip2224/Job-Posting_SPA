@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+}
+
+.header-detail {
+    width: 50vw;
+}
+
+.header-apply {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-apply button {
+    margin-right: 10px !important;
+}
+
+.roleName {
+    font-size: 2em;
+}
+
+.companyName {
+    font-size: 1.5em;
+}
