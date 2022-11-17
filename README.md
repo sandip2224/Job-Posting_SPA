@@ -2,7 +2,8 @@
 
 1. Clone the repository
 2. npm install
-3. npm run ssr
+3. npm run build
+4. node app.js
 
 # Getting Started with Create React App
 
